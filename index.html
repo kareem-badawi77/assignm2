@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#hobbies">My Hobbies</a></li>
+            <li><a href="#future">Future Goals</a></li>
+            <li><a href="#Favotite hobby">Favorite Hobby</a></li>
+            <li><a href="#project"> Project</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1>Abd AL kareem badawi</h1>
+        <img src="image.png"width="300px">
+        <p> I am Abd Al kareem badawi , I am 19 years old,I am studendt in NNU .</p>
+    </section>
+
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/playing football" target="_blank">Playing football</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Reading" target="_blank">Reading</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Swimming" target="_blank">Swimming</a></li>
+        </ul>
+        <!-- Images of Hobbies (with fallback) -->
+        <div class="hobby-images">
+            <img src="tatjana-dimovska-VTI1PJD7HP8-unsplash.jpg" alt="Football Hobby" onerror="this.onerror=null;this.src='images/default.jpg';" width="150">
+            <img src="freestocks-OfaDD5o8hpk-unsplash.jpg" alt="Reading Hobby" onerror="this.onerror=null;this.src='images/default.jpg';" width="150">
+            <img src="todd-quackenbush-E9PJO_vL3E8-unsplash.jpg" alt="Swimming Hobby" onerror="this.onerror=null;this.src='images/default.jpg';" width="150">
+        </div>
+    </section>
+
+    <!-- Favorite Hobby Form -->
+    <section id="form">
+        <h3>Can You Guess My Favorite Hobby?</h3>
+        <form action="#" method="post">
+            <label for="hobby-guess">Enter your guess:</label>
+            <input type="text" id="hobby-guess" name="hobby-guess">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Future Goals Section -->
+    <section id="future">
+        <h2>What I Want to Be When I Grow Up</h2>
+        <p>I want to be a Software engineer.</p>
+    </section>
+
+    <!-- Link to Previous Project -->
+    <section id="project">
+        <h2>My previous Project</h2>
+        <p>You can check out one of my previous projects here:</p>
+        <a href="https://github.com/kareem-badawi77/ASSSIG11" target="_blank"title="go to my project">my project</a>
+    </section>
+
+   
+</body>
+</html>
